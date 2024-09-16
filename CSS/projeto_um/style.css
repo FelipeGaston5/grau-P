@@ -1,0 +1,17 @@
+body{
+    background-image:url(../projeto_um/modelo_background/imagens/fundo_madeira.jpg) ;
+    background-repeat: repeat;
+    background-color: #804000;
+    margin-top: 0%;
+}
+#topo{
+    background-image: url(../projeto_um/modelo_background/imagens/lente_preta.png);
+    background-repeat: repeat;
+    margin: 0%;
+    height: 120px;
+    width: 100%;
+}
+#topo h1{
+    color: #ffffff;
+    margin:0px;
+}
