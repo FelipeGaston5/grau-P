@@ -7,6 +7,37 @@
     <link type="text/css" rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    
+    <div id="cabecalho">
+        cabeçalho
+    </div>
+    <div id="container">
+        <div id="topo">
+            <div id="logo">
+                <h1>ECOjá</h1>
+            <h2>O seu portal sobre ecologia</h2>
+            </div>
+        </div>
+        <div id="menu">
+            <a href="#">home</a>
+            <a href="#">artigos</a>
+            <a href="#">entrevistas</a>
+            <a href="#">infográficos</a>
+            <a href="#">sobre nós</a>
+            <a href="#">contato</a>
+        </div>
+        <div id="corpo">
+            <h1 class="titulo">Adoramos ouvir o que você tem a dizer, então vá em frente, é simples e rápido<br>
+            preencha todos os campos com seus dados que nós responderemos sua mensagem!</h1>
+            <form action="#" method="#" class="contato">
+                <fieldset>
+                    <label for="fnome">Nome: </label><input name="Nome" id="fnome" type="text">
+                    <label for="femail">Email: </label><input type="text" id="femail" name="email">
+                    <label for="fcidade">Cidade: </label><input type="text" id="fcidade" name="cidade">
+                    <label for="festado">Estado: </label><input type="text" id="festado" name="estado">
+                    <label for="fmsg">Mensagem: </label><textarea type="text" id="fmsg" name="mensagem"></textarea>
+                    <input type="button" id="fenviar" name="enviar" value="Enviar" class="enviar">
+            </form>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,91 @@
+body{
+    min-width: 960px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 12px;
+    background-color: #b5c884;
+    color: #36352e;
+    margin: 0px;
+}
+
+#container{
+    height: 100%;
+    width: 900px;
+    margin: 0px auto;
+}
+#cabecalho{
+    height: 40px;
+    width: 100%;
+    background-color: #625f4d;
+    color: #ffffff;
+}
+
+#topo{
+    background-image: url('../modelo_sete/imagens/topo.png');
+    width: 900px;
+    height: 200px;
+    border-bottom: 2px outset #b5c884;
+}
+#topo h1{
+    width: 320px;
+    font-size: 100px;
+    color: #ffffff;
+    margin: 0px 0px 0px 30px;
+    border-bottom: groove 3px #ffffff;
+}
+#topo h2{
+    width: 320px;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0px 0px 0px 30px;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    background: #e0ddc7 url('./imagens/sombra.png') repeat-y right;
+    float: left;
+    width: 180px;
+    min-height: 400px;
+    padding: 10px;
+}
+#menu a:link{
+    float: left;
+    clear: both;
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: 1px dashed #d4d0af;
+    display: block;
+    width: 160px;
+    color: #373737;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#menu a:hover{
+    background-color: #e8e6d9;
+    border-left: 3px solid #373737;
+}
+#menu a:visited{
+    color: #373737;
+    border-bottom: dashed 1px #d4d0af;
+}
+#menu a:active{
+    background-color: #373737;
+    border-left: 3px solid #373737; 
+    color: #e8e6d9;
+}
+
+#corpo{
+    background-color: #e8e6d9;
+    float: right;
+    width: 680px;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 16px;
+    margin: 0px 0px 20px 0px;
+    color: #78776e;
+}
