@@ -1,0 +1,49 @@
+﻿.reviews{
+    color: #ff9000;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 10px 10px;
+}
+.quadro{
+    width: 220px;
+    margin: 0px 10px 0px 10px;
+    float: left;
+    font-family: 'Trebuchet MS', sans-serif;
+    &{
+        h2{
+            font-size: 15px;
+            font-weight: normal;
+            margin: 0px;
+        }
+        img{
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 14px;
+            color: #999;
+            font-weight: normal;
+            margin: 5px 0px;
+        }
+        .maisacessado{
+            color: #999;
+            font-size: 20px;
+            font-weight: normal;
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 0px;
+            border-bottom: solid 1px #999;
+        }
+        ul{
+            font-size: 15px;
+            list-style: none;
+            float: left;
+            color: #999;
+            padding: 0px;
+            li{
+                border-bottom: dotted 1px #999;
+                width: 220px;
+                margin: 1px 0px 1px 0px;
+            }
+        }
+    }
+}

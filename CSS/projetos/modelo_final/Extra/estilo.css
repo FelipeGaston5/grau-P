@@ -1,0 +1,51 @@
+﻿#quadro{
+    width: 305px;
+    height: 205px;
+    background:
+        url('imagens/fundo.png')
+        #d2faff;
+    font-family: 'Trebuchet MS';
+    color: #002ba7;
+    padding: 10px;
+    &{
+        h1{
+            font-size: 13px;
+            margin: 0px;
+            &::first-line {
+                font-size: 20px;
+            }
+        }
+        ul{
+            font-size: 12px;
+            padding-left: 18px;
+            margin: 15px 0px 10px 0px;
+            float: left;
+            list-style-image: url('./imagens/marcador.png');
+        }
+        .de{
+            font-size: 12px;
+            margin: 0px;
+        }
+        .por{
+            font-size: 12px;
+            color: #c30000;
+            margin: 0px;
+            float: left;
+        }
+        .valor{
+            font-size: 30px;
+            color: #c30000;
+            margin: 0px;
+            float: left;
+            font-weight: bold;
+            &{
+                span{
+                    font-size: 15px;
+                }
+            }
+        }
+        img{
+            float: right;
+        }
+    }
+}
